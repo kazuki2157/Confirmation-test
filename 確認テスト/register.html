@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FashionablyLate</h1>
+        <nav>
+            <a href="login.html" class="login-button">login</a>
+        </nav>
+    </header>
+    <main>
+        <section class="register-header">
+            <h2>Register</h2>
+        </section>
+        <section class="register-section">
+            <form action="submit_registration" method="post">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name">
+                    <span class="error-message">お名前を入力してください</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-message">メールアドレスを入力してください</span>
+                    <span class="error-message">メールアドレスは「ユーザー名@ドメイン」形式で入力してください</span>
+                </div>
+                <div class="form-group">
+                    <label for="password">パスワード</label>
+                    <input type="password" id="password" name="password">
+                    <span class="error-message">パスワードを入力してください</span>
+                </div>
+                <button type="submit">登録</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

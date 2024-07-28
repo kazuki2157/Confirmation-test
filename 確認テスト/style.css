@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ef;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #8d726b;
+}
+
+header nav {
+    position: absolute;
+    right: 20px;
+}
+
+header .login-button {
+    text-decoration: none;
+    color: #8d726b;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #8d726b;
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.register-header {
+    margin-bottom: 20px;
+}
+
+.register-header h2 {
+    font-size: 24px;
+    color: #8d726b;
+}
+
+.register-section {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #8d726b;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.form-group .error-message {
+    display: none;
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #8d726b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #705a54;
+}
